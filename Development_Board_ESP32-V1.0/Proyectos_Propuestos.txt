@@ -1,0 +1,37 @@
+1. Control de LED (Proyecto básico)
+Descripción: Controla un LED utilizando el ESP32. Es el proyecto más sencillo para comenzar y te permitirá entender cómo interactuar con los pines GPIO.
+Requisitos: ESP32, LED, resistencia, pwm.
+Aprendizaje: Control básico de pines y programación con Arduino IDE.
+2. Termómetro con sensor DHT11/DHT22
+Descripción: Usa un sensor de temperatura y humedad (como el DHT11 o DHT22) para leer datos y en una lcd
+Requisitos: ESP32, sensor DHT11 o DHT22, cables.
+Aprendizaje: Leer datos de sensores analógicos y trabajar con comunicación serial.
+3. Medidor de distancia con HC-SR04
+Descripción: Usa un sensor ultrasónico HC-SR04 para medir distancias y mostrar el resultado en el monitor serial y una lcd.
+Requisitos: ESP32, sensor ultrasónico HC-SR04, cables.
+Aprendizaje: Manejo de señales de entrada y salida, y cálculo de distancias.
+4. Control remoto de LED mediante Wi-Fi (App móvil)
+Descripción: Configura un servidor web en el ESP32 y controla un LED desde una página web que puedas abrir desde tu teléfono.
+Requisitos: ESP32, LED, resistencia, acceso a internet.
+Aprendizaje: Comunicación Wi-Fi, desarrollo de servidores web simples.
+5. Sistema de Alarma con sensores de movimiento
+Descripción: Utiliza un sensor de movimiento (PIR) junto con el ESP32 para crear un sistema de alarma que se active cuando detecte movimiento.
+Requisitos: ESP32, sensor PIR, buzzer.
+Aprendizaje: Sensores de movimiento, alarmas y activación de dispositivos.
+6. Estación Meteorológica con pantalla LCD
+Descripción: Conecta varios sensores (como temperatura, humedad, y presión atmosférica) a tu ESP32 y muestra los datos en una pantalla LCD o OLED.
+Requisitos: ESP32, sensores (DHT11/DHT22, BMP180), pantalla LCD/OLED.
+Aprendizaje: Integración de múltiples sensores, visualización de datos en pantallas.
+7. Control de servomotores
+Descripción: Utiliza Bluetooth para controlar un servomotor desde tu teléfono móvil, creando un proyecto simple de control remoto.
+Requisitos: ESP32, servomotor, cables.
+Aprendizaje: Comunicación Bluetooth, control de motores y dispositivos externos.
+8. Sistema de riego automático
+Descripción: Conecta sensores de humedad del suelo y controla una bomba de agua para regar plantas de manera automática cuando el suelo esté seco.
+Requisitos: ESP32, sensor de humedad, relé, bomba de agua.
+Aprendizaje: Control de dispositivos externos (bomba), sensado de humedad y automatización.
+9. Control de Luces RGB WS2812b desde una pagina web
+Requisitos: Leds WS2812
+Descripción: Control de una matriz led RGB desde un color picker que estara en una pagina web
+10. Control de dispositivos con Alexa - Google Home
+Descripción: Poder controlar dispositivos por medio de comandos de voz utilizando nuestro dispositivo mobil

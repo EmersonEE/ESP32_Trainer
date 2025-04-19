@@ -1,0 +1,39 @@
+1- *Control de LED (Proyecto básico)
+
+Dificultad: Fácil
+
+Motivo: Solo necesitas controlar un pin GPIO y aplicar PWM, ideal para principiantes.
+
+Aprendizaje: Interacción básica con hardware desde el ESP32.
+
+2- *Medir distancia con el sensor hc-sr04 y mostrar en la pantalla oled
+
+Dificultad: Fácil
+
+Motivo: Solo implica lectura de sensores digitales y mostrar el dato.
+
+Aprendizaje: Lectura de sensores, uso de librerías básicas y pantalla LCD.
+
+3- *Control de dispositivos con Alexa - Google Home
+
+Dificultad: Difícil
+
+Motivo: Requiere configuración de servicios externos, integración con plataformas como Blynk, IFTTT o MQTT.
+
+Aprendizaje: IoT avanzado, control por voz, integración con asistentes inteligentes.
+
+4- *Usar un sensor pir, al detectar se enciende un foco de 120 y mandar un mensaje en telegram
+
+Dificultad: Difícil
+
+Motivo: Manejo de múltiples sensores y visualización en pantalla.
+
+Aprendizaje: Comunicación I2C/SPI, integración de datos, presentación visual en tiempo real.
+
+5- *Control de Luces RGB WS2812b desde una página web
+
+Dificultad: Difícil
+
+Motivo: Requiere manejo de una matriz RGB y desarrollo de interfaz web con control de color.
+
+Aprendizaje: Programación web + hardware, manejo de efectos de luces, comunicación Wi-Fi.

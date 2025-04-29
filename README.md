@@ -23,13 +23,27 @@ Proyecto de Electrónica Aplicada 1 - **USAC**
 ---
 
 ## 🧩 Introducción
+
+En el ámbito del diseño electrónico y el desarrollo de prototipos, existe una necesidad creciente de contar con herramientas integradas que simplifiquen el proceso de aprendizaje, experimentación y construcción de soluciones funcionales. Las placas de desarrollo convencionales suelen requerir múltiples módulos adicionales para realizar proyectos completos, lo que incrementa la complejidad, los costos y el tiempo de implementación.
+
+Este proyecto propone el diseño y fabricación de una **placa entrenadora basada en el ESP32-WROOM-32**, orientada a estudiantes, makers y profesionales. Su objetivo es integrar en una sola plataforma los elementos esenciales para trabajar con entradas/salidas digitales y analógicas, comunicación serial, control de cargas de alto voltaje, y más.
+
+Entre sus características destacan:
+
+- 🔘 Botones, LEDs y potenciómetros integrados para pruebas rápidas.
+- ⚡ Control de cargas de 110V/220V mediante relés.
+- 🔌 Interfaces UART, I2C y SPI disponibles desde headers.
+- 📦 Diseño compacto y profesional en PCB de doble capa.
+
+Con esta solución, se busca facilitar el desarrollo de proyectos de electrónica y automatización, reduciendo la necesidad de hardware adicional y mejorando la experiencia de aprendizaje.
+
+
 [🔙 Volver al Temario](#-temario-del-proyecto)
 
-Contenido de introducción...
 
----
 
 ## 🔌 ESP32 Trainer
+![ESP32 Trainer](img/Development_Board_ESP32-V1.0.png)
 [🔙 Volver al Temario](#-temario-del-proyecto)
 
 Descripción del ESP32 Trainer...
@@ -103,8 +117,16 @@ KiCad es una suite de software libre para el diseño de circuitos electrónicos 
 🔁 Integración con herramientas externas para simulación eléctrica (SPICE) o gestión de proyectos.
 
 Al ser de código abierto y multiplataforma (disponible en Windows, Linux y macOS), KiCad es una opción ideal tanto para estudiantes, makers, como para profesionales del diseño electrónico.
-</details>
+## Tutoriales KiCad
+[Guia para el uso de KiCad #1](https://youtu.be/d3H3tfU4zBI?si=xuLWuXKZdiR-Zq-u)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d3H3tfU4zBI?si=ln3VodGuKS2T8XBj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[Guia para el uso de KiCad #2](https://www.youtube.com/watch?v=7YaQ3QVPdN0&t=1411s)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7YaQ3QVPdN0?si=Sbgv618YU5_mpEUj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</details>
 
 [🔙 Volver al Temario](#-temario-del-proyecto)
 

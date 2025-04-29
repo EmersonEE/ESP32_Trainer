@@ -117,14 +117,19 @@ KiCad es una suite de software libre para el diseño de circuitos electrónicos 
 🔁 Integración con herramientas externas para simulación eléctrica (SPICE) o gestión de proyectos.
 
 Al ser de código abierto y multiplataforma (disponible en Windows, Linux y macOS), KiCad es una opción ideal tanto para estudiantes, makers, como para profesionales del diseño electrónico.
-## Tutoriales KiCad
-[Guia para el uso de KiCad #1](https://youtu.be/d3H3tfU4zBI?si=xuLWuXKZdiR-Zq-u)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/d3H3tfU4zBI?si=ln3VodGuKS2T8XBj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## 📺 Tutoriales KiCad
 
-[Guia para el uso de KiCad #2](https://www.youtube.com/watch?v=7YaQ3QVPdN0&t=1411s)
+### Guía para el uso de KiCad #1
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7YaQ3QVPdN0?si=Sbgv618YU5_mpEUj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d3H3tfU4zBI" frameborder="0" allowfullscreen></iframe>
+
+---
+
+### Guía para el uso de KiCad #2
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7YaQ3QVPdN0" frameborder="0" allowfullscreen></iframe>
+
 
 </details>
 

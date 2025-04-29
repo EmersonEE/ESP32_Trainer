@@ -122,14 +122,13 @@ Al ser de código abierto y multiplataforma (disponible en Windows, Linux y macO
 
 ### Guía para el uso de KiCad #1
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/d3H3tfU4zBI" frameborder="0" allowfullscreen></iframe>
+[![Guía para el uso de KiCad #1](https://img.youtube.com/vi/d3H3tfU4zBI/0.jpg)](https://youtu.be/d3H3tfU4zBI)
 
 ---
 
 ### Guía para el uso de KiCad #2
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7YaQ3QVPdN0" frameborder="0" allowfullscreen></iframe>
-
+[![Guía para el uso de KiCad #2](https://img.youtube.com/vi/7YaQ3QVPdN0/0.jpg)](https://youtu.be/7YaQ3QVPdN0)
 
 </details>
 

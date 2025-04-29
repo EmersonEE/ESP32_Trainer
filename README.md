@@ -23,21 +23,20 @@ Proyecto de Electrónica Aplicada 1 - **USAC**
 ---
 
 ## 🧩 Introducción
-[🔙 Volver al Temario](#temario-del-proyecto)
+[🔙 Volver al Temario](#-temario-del-proyecto)
 
 Contenido de introducción...
 
 ---
 
 ## 🔌 ESP32 Trainer
-[🔙 Volver al Temario](#temario-del-proyecto)
+[🔙 Volver al Temario](#-temario-del-proyecto)
 
 Descripción del ESP32 Trainer...
 
 ---
 
 ## 🧰 Materiales  
-[🔙 Volver al Temario](#temario-del-proyecto)
 
 En esta sección se detallan todos los componentes electrónicos utilizados para el ensamblaje de la placa entrenadora basada en el ESP32-WROOM-32. La tabla incluye el identificador de cada componente, la cantidad necesaria, su valor o referencia, y el modelo de huella utilizado en el diseño PCB con KiCad.
 
@@ -81,10 +80,11 @@ En esta sección se detallan todos los componentes electrónicos utilizados para
 | U4–U6        | 3           | PC817          | DIP-4_W7.62mm                                               |
 | Y1           | 1           | 12MHz          | Crystal_HC49-4H_Vertical                                    |
 </details>
+[🔙 Volver al Temario](#-temario-del-proyecto)
 
 ## 🖨️ Diseño PCB - KiCad
 
- KiCad se utilizó para el diseño de la placa entrenadora basada en el ESP32-WROOM-32, permitiendo crear el esquemático del circuito, asignar huellas adecuadas a los componentes y generar el diseño del PCB en múltiples capas. Gracias a sus herramientas de visualización y comprobación de reglas, fue posible optimizar el diseño para su posterior fabricación con alta precisión.
+ [KiCad](https://www.kicad.org/) se utilizó para el diseño de la placa entrenadora basada en el ESP32-WROOM-32, permitiendo crear el esquemático del circuito, asignar huellas adecuadas a los componentes y generar el diseño del PCB en múltiples capas. Gracias a sus herramientas de visualización y comprobación de reglas, fue posible optimizar el diseño para su posterior fabricación con alta precisión.
 
 <details><summary><b>🖥️ Introducción a KiCad</b></summary>
 
@@ -103,20 +103,13 @@ KiCad es una suite de software libre para el diseño de circuitos electrónicos 
 🔁 Integración con herramientas externas para simulación eléctrica (SPICE) o gestión de proyectos.
 
 Al ser de código abierto y multiplataforma (disponible en Windows, Linux y macOS), KiCad es una opción ideal tanto para estudiantes, makers, como para profesionales del diseño electrónico.
-
-
 </details>
 
 
-
-
-
-Detalles sobre el diseño del PCB...
----
-[🔙 Volver al Temario](#temario-del-proyecto)
+[🔙 Volver al Temario](#-temario-del-proyecto)
 
 ## 🧪 Proyectos Demostrativos
-[🔙 Volver al Temario](#temario-del-proyecto)
+[🔙 Volver al Temario](#-temario-del-proyecto)
 
 Descripción de proyectos...
 

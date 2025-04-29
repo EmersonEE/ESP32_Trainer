@@ -13,11 +13,11 @@ Proyecto de Electrónica Aplicada 1 - **USAC**
 
 # 📘 Temario del Proyecto
 
-- 🔹 [Introducción](#introducción)
-- 🔹 [ESP32 Trainer](#esp32-trainer)
-- 🔹 [Materiales](#materiales)
-- 🔹 [Diseño PCB - KiCad](#diseño-pcb---kicad)
-- 🔹 [Proyectos Demostrativos](#proyectos-demostrativos)
+- 🔹 [Introducción](#-introducción)
+- 🔹 [ESP32 Trainer](#-esp32-trainer)
+- 🔹 [Materiales](#-materiales)
+- 🔹 [Diseño PCB - KiCad](#-diseño-pcb---kicad)
+- 🔹 [Proyectos Demostrativos](#-proyectos-demostrativos)
 <!-- - 🎥 [Video de Funcionamiento](#video-de-funcionamiento) -->
 
 ---

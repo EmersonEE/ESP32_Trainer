@@ -106,77 +106,77 @@ En esta sección se detallan todos los componentes electrónicos utilizados para
 <details><summary><b>📏 Esquemático KiCad</b></summary>
 
 Esquemático diseñado en Kicad, se puede visualizar de forma completa en este enlace [Esquemático](Schematic.pdf)
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>Power Supply</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-12-27_21241.png" alt="Power Supply" width="300px">
   </p>
 </div>
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>USB To TTL</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-15-39_6731.png" alt="USB To TTL" width="300px">
   </p>
 </div>
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>Boot Settings</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-15-46_17874.png" alt="Boot Settings" width="300px">
   </p>
 </div>
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>INPUT - OUTPUT Digital</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-16-01_27769.png" alt="INPUT - OUTPUT Digital" width="300px">
   </p>
 </div>
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>ESP32-WROOM</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-16-37_26432.png" alt="ESP32-WROOM" width="300px">
   </p>
 </div>
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>Analog INPUT</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-16-47_16721.png" alt="Analog INPUT" width="300px">
   </p>
 </div>
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>LED WS2812B</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-16-55_10297.png" alt="LED WS2812B" width="300px">
   </p>
 </div>
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>Buzzer</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-17-11_6193.png" alt="Buzzer" width="300px">
   </p>
 </div>
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>Jumper Selector</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-17-19_18346.png" alt="Jumper Selector" width="300px">
   </p>
 </div>
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>GPIO - UART</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-17-29_3332.png" alt="GPIO - UART" width="300px">
   </p>
 </div>
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>OLED I2C</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-17-57_30038.png" alt="OLED I2C" width="300px">
@@ -184,7 +184,7 @@ Esquemático diseñado en Kicad, se puede visualizar de forma completa en este e
 </div>
 
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>Rele</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_30-abr_11-07-04_27617.png" alt="OLED I2C" width="300px">
@@ -194,32 +194,32 @@ Esquemático diseñado en Kicad, se puede visualizar de forma completa en este e
 
 </details>
 
-<details><summary><b> Diseño del PCB </b></summary>
+<details><summary><b>🔌 Diseño del PCB </b></summary>
 
 Diseño de la PCB en dos caras, se puede descargar los archivos para su modificación o su estudio en aca [Descargar archivos del  PCB](Development_Board_ESP32-V1.0/)
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>Diseño 3D</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-23-05_24038.png" alt="OLED I2C" width="300px">
   </p>
 </div>
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>Capa TOP</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-21-08_19663.png" alt="OLED I2C" width="300px">
   </p>
 </div>
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>Capa BUTTON</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-20-52_12713.png" alt="OLED I2C" width="300px">
   </p>
 </div>
 
-<div>
+<div align="center" >
   <p style="text-align:center;"><strong>Serigrafía</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-20-41_28882.png" alt="OLED I2C" width="300px">

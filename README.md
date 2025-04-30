@@ -94,6 +94,7 @@ En esta sección se detallan todos los componentes electrónicos utilizados para
 | U4–U6        | 3           | PC817          | DIP-4_W7.62mm                                               |
 | Y1           | 1           | 12MHz          | Crystal_HC49-4H_Vertical                                    |
 </details>
+
 [🔙 Volver al Temario](#-temario-del-proyecto)
 
 ## 🖨️ Diseño PCB - KiCad

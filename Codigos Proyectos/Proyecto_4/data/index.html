@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+    <head>
+        <title>ESP32 WebSocket Color Picker</title>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/iro.min.js"></script>
+        <script src="js/iro_picker.js"></script>
+        <script>
+            const WEB_SERVER_IP = true ? '192.168.129.8' : '%WEB_SERVER_IP%';
+            const WEBSOCKET_ADDRESS = 'ws://' + WEB_SERVER_IP + '/ws';
+        </script>
+        <script src="js/socket.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">          
+                <div id="color" class="picker"></div>
+            </div>
+        </div>
+    </body>
+</html>

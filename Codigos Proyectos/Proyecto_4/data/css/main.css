@@ -1,0 +1,29 @@
+:root {
+    --picker-width: 500px;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: black;
+    color: white;
+    overflow: hidden;
+}
+
+.container {
+    min-height: calc(100% - 2 * 20px);
+    margin: 20px;
+    background: #0f111f;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.content {
+    padding: 35px 50px;
+}
+
+.picker {
+    max-width: var(--picker-width);
+    margin: auto;
+}

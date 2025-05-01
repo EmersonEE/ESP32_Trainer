@@ -271,12 +271,41 @@ Cada proyecto está enfocado en destacar una o varias funcionalidades integradas
 
 <details><summary><b>🔌💡 Proyecto 1 </b></summary>
 
-Este proyecto de Arduino define clases LED y PWM para controlar un LED. La clase LED permite inicializar un pin como salida digital o PWM, encenderlo, apagarlo, hacerlo parpadear y controlar su intensidad mediante PWM. La clase PWM facilita la lectura de un pin analógico y la obtención de valores raw, mapeados (0-255) y de voltaje. En el setup, se inicializa un LED (conectado al pin 2) en modo PWM. En el loop, la intensidad de este LED se controla continuamente leyendo un valor analógico a través de un objeto PWM (asociado al pin 32).
+## Proyecto: Control de Intensidad de LED con Clases Personalizadas
+
+Este proyecto implementa un sistema modular en Arduino para el **control de un LED** utilizando clases personalizadas en C++.
+
+### Características principales:
+
+- **Clase `LED`**: Permite controlar un LED conectado a un pin digital o PWM. Soporta funciones como encendido, apagado, parpadeo y control de brillo mediante modulación por ancho de pulso (PWM).
+- **Clase `PWM`**: Facilita la lectura de entradas analógicas y entrega los valores en diferentes formatos: raw, mapeado (0-255) y en voltios.
+- En la función `setup()`, se configura un LED en el pin 2 en modo PWM.
+- En el `loop()`, la intensidad del LED se ajusta dinámicamente según la lectura analógica del pin 32.
+
+Este proyecto demuestra cómo estructurar el código de forma reutilizable y orientada a objetos para controlar hardware de forma más eficiente.
+
+
+
+🔗 [Ver código del Proyecto 1](/Codigos%20Proyectos/Proyecto_1/)
 
 </details>
 
 
 <details><summary><b>🔌💡 Proyecto 2 </b></summary>
+
+## Proyecto: Detección de Movimiento y Control Remoto vía Telegram
+
+Este proyecto implementa un sistema de monitoreo basado en **ESP32** que permite detectar movimiento mediante un sensor **PIR** y enviar notificaciones en tiempo real a un usuario específico a través de un bot de **Telegram**.
+
+### Características principales:
+
+- **Detección de movimiento**: El sensor PIR detecta presencia o movimiento en el entorno.
+- **Notificación instantánea**: Cuando se detecta movimiento, el ESP32 envía un mensaje automáticamente al usuario mediante Telegram.
+- **Control remoto**: El usuario puede encender o apagar un **LED** conectado al ESP32 enviando comandos personalizados al bot.
+- **Interacción segura y directa**: Solo el usuario autorizado puede comunicarse con el bot para recibir alertas o enviar comandos.
+- **Aplicación práctica**: Ideal para sistemas de vigilancia, alarmas domésticas o control remoto básico mediante mensajería.
+
+🔗 [Ver código del Proyecto 2](/Codigos%20Proyectos/Proyecto_2/)
 
 
 </details>
@@ -284,7 +313,34 @@ Este proyecto de Arduino define clases LED y PWM para controlar un LED. La clase
 
 <details><summary><b>🔌💡 Proyecto 3 </b></summary>
 
+## Proyecto: Control de Focos con ESP32 y ESP RainMaker
 
+Este proyecto utiliza un ESP32 para controlar tres focos a través de la plataforma **ESP RainMaker**, permitiendo el encendido y apagado mediante comandos de voz e integración con asistentes virtuales.
+
+### Características principales:
+
+- **Control inteligente**: Tres relés controlan los focos conectados a los pines **25**, **2** y **14**.
+- **Dispositivos virtuales**: Se crean tres dispositivos en la nube:
+  - `Foco Sala`
+  - `Foco Comedor`
+  - `Foco Cuarto`
+- **Comandos de voz**: Compatible con asistentes virtuales mediante ESP RainMaker.
+- **Aprovisionamiento BLE**: Permite la configuración inicial de red Wi-Fi mediante Bluetooth.
+- **Callback personalizado**: Al recibir una orden desde RainMaker, el estado del relé correspondiente se actualiza.
+- **Actualización OTA**: Soporte para actualizaciones de firmware a distancia.
+- **Servicios integrados**:
+  - Zona horaria
+  - Programación de tareas
+- **Indicadores y botones**:
+  - LED indica conexión Wi-Fi activa.
+  - Botón en el pin **0** permite:
+    - Restablecer Wi-Fi (pulsación breve)
+    - Restablecer de fábrica (pulsación prolongada)
+
+Este proyecto es ideal para aplicaciones de automatización del hogar, demostrando la capacidad de la placa para integrarse con servicios en la nube y control por voz.
+
+
+🔗 [Ver código del Proyecto 3](/Codigos%20Proyectos/Proyecto_3/)
 </details>
 
 

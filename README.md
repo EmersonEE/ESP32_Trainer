@@ -263,8 +263,40 @@ Al ser de código abierto y multiplataforma (disponible en Windows, Linux y macO
 [🔙 Volver al Temario](#-temario-del-proyecto)
 
 ## 🧪 Proyectos Demostrativos
+
+Con el objetivo de validar y demostrar la versatilidad de la placa entrenadora basada en el ESP32-WROOM-32, se desarrollaron cinco proyectos demostrativos que abarcan desde aplicaciones básicas hasta implementaciones más avanzadas. Estos proyectos fueron diseñados para cubrir distintos niveles de complejidad, permitiendo así ilustrar de manera progresiva el potencial de la placa tanto en el ámbito educativo como en entornos de prototipado profesional.
+
+Cada proyecto está enfocado en destacar una o varias funcionalidades integradas de la placa, como el uso de salidas digitales con visualización por LEDs, entradas analógicas controladas por potenciómetros, manejo de salidas de alto voltaje mediante relés, así como el uso de interfaces de comunicación como UART, I2C o SPI.
+
+
+<details><summary><b>🔌💡 Proyecto 1 </b></summary>
+
+Este proyecto de Arduino define clases LED y PWM para controlar un LED. La clase LED permite inicializar un pin como salida digital o PWM, encenderlo, apagarlo, hacerlo parpadear y controlar su intensidad mediante PWM. La clase PWM facilita la lectura de un pin analógico y la obtención de valores raw, mapeados (0-255) y de voltaje. En el setup, se inicializa un LED (conectado al pin 2) en modo PWM. En el loop, la intensidad de este LED se controla continuamente leyendo un valor analógico a través de un objeto PWM (asociado al pin 32).
+
+</details>
+
+
+<details><summary><b>🔌💡 Proyecto 2 </b></summary>
+
+
+</details>
+
+
+<details><summary><b>🔌💡 Proyecto 3 </b></summary>
+
+
+</details>
+
+
+<details><summary><b>🔌💡 Proyecto 4 </b></summary>
+
+
+</details>
+
+<details><summary><b>🔌💡 Proyecto 5 </b></summary>
+
+
+</details>
+
 [🔙 Volver al Temario](#-temario-del-proyecto)
 
-Descripción de proyectos...
-
----

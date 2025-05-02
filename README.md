@@ -269,7 +269,7 @@ Con el objetivo de validar y demostrar la versatilidad de la placa entrenadora b
 Cada proyecto está enfocado en destacar una o varias funcionalidades integradas de la placa, como el uso de salidas digitales con visualización por LEDs, entradas analógicas controladas por potenciómetros, manejo de salidas de alto voltaje mediante relés, así como el uso de interfaces de comunicación como UART, I2C o SPI.
 
 
-<details><summary><b>🔌💡 Proyecto 1 </b></summary>
+<details><summary><b>🤖 💡 Proyecto 1 </b></summary>
 
 ## Proyecto: Control de Intensidad de LED con Clases Personalizadas
 
@@ -284,14 +284,12 @@ Este proyecto implementa un sistema modular en Arduino para el **control de un L
 
 Este proyecto demuestra cómo estructurar el código de forma reutilizable y orientada a objetos para controlar hardware de forma más eficiente.
 
-
-
 🔗 [Ver código del Proyecto 1](/Codigos%20Proyectos/Proyecto_1/)
 
 </details>
 
 
-<details><summary><b>🔌💡 Proyecto 2 </b></summary>
+<details><summary><b>🤖 💡 Proyecto 2 </b></summary>
 
 ## Proyecto: Detección de Movimiento y Control Remoto vía Telegram
 
@@ -307,11 +305,9 @@ Este proyecto implementa un sistema de monitoreo basado en **ESP32** que permite
 
 🔗 [Ver código del Proyecto 2](/Codigos%20Proyectos/Proyecto_2/)
 
-
 </details>
 
-
-<details><summary><b>🔌💡 Proyecto 3 </b></summary>
+<details><summary><b>🤖 💡 Proyecto 3 </b></summary>
 
 ## Proyecto: Control de Focos con ESP32 y ESP RainMaker
 
@@ -339,20 +335,49 @@ Este proyecto utiliza un ESP32 para controlar tres focos a través de la platafo
 
 Este proyecto es ideal para aplicaciones de automatización del hogar, demostrando la capacidad de la placa para integrarse con servicios en la nube y control por voz.
 
-
 🔗 [Ver código del Proyecto 3](/Codigos%20Proyectos/Proyecto_3/)
-</details>
-
-
-<details><summary><b>🔌💡 Proyecto 4 </b></summary>
-
 
 </details>
 
-<details><summary><b>🔌💡 Proyecto 5 </b></summary>
 
+
+
+<details><summary><b>🤖 💡 Proyecto 4 </b></summary>
+
+## Proyecto: Controlador Web para LED RGB con ESP32
+
+Gracias al módulo WiFi integrado del **ESP32**, es posible crear un controlador web altamente funcional para un **LED RGB**, eliminando la necesidad de ingresar manualmente valores RGB cada vez que se desea cambiar el color.
+
+En lugar de eso, este proyecto propone una **interfaz web atractiva e interactiva**, que permite seleccionar colores de forma visual e intuitiva. Para ello, se utiliza la biblioteca **iro.js**, un potente selector de color en JavaScript que ofrece una experiencia de usuario dinámica y visualmente agradable.
+
+La comunicación entre la interfaz web y el ESP32 se realiza mediante **WebSockets**, lo que permite actualizar el color en tiempo real sin necesidad de recargar la página. El **ESP32 actúa como servidor Web**, sirviendo la interfaz HTML y gestionando el servidor WebSocket para recibir los datos del color seleccionado.
+
+Este enfoque proporciona un sistema eficiente, moderno y fácil de usar para controlar luces RGB a través de cualquier dispositivo con acceso a un navegador web.
+
+🔗 [Ver código del Proyecto 4](/Codigos%20Proyectos/Proyecto_4/)
 
 </details>
+
+<details><summary><b>🤖 💡 Proyecto 5 </b></summary>
+
+## Proyecto: Alerta de Proximidad con Sensor Ultrasónico, Pantalla OLED y Buzzer
+
+Este proyecto utiliza un **sensor ultrasónico**, una **pantalla OLED SSD1306** y un **buzzer** para crear un sistema de alerta de proximidad.
+
+### Funcionamiento:
+
+- El **sensor ultrasónico** mide constantemente la distancia a un objeto frente a él.
+- La **pantalla OLED** muestra en tiempo real la distancia detectada en centímetros.
+- Cuando un objeto se acerca a una **distancia mínima predefinida**, el **buzzer** se activa como señal de advertencia sonora.
+- Si el objeto se aleja nuevamente más allá del umbral, el buzzer se desactiva automáticamente.
+
+Este sistema es útil como sistema de asistencia para estacionamiento, detección de intrusos, monitoreo de espacios reducidos, entre otros usos prácticos que requieren una alerta ante la cercanía de objetos.
+
+🔗 [Ver código del Proyecto 5](/Codigos%20Proyectos/Proyecto_5/)
+
+</details>
+
+
 
 [🔙 Volver al Temario](#-temario-del-proyecto)
 

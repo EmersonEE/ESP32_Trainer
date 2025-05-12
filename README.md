@@ -15,6 +15,7 @@ Proyecto de Electrónica Aplicada 1 - **USAC**
 
 - 🔹 [Introducción](#-introducción)
 - 🔹 [ESP32 Trainer](#-esp32-trainer)
+- 🔹 [ESP32 Trainer Pinout](#-esp32-trainer-pinout)
 - 🔹 [Materiales](#-materiales)
 - 🔹 [Diseño PCB - KiCad](#-diseño-pcb---kicad)
 - 🔹 [Proyectos Demostrativos](#-proyectos-demostrativos)
@@ -26,7 +27,7 @@ Proyecto de Electrónica Aplicada 1 - **USAC**
 
 En el ámbito del diseño electrónico y el desarrollo de prototipos, existe una necesidad creciente de contar con herramientas integradas que simplifiquen el proceso de aprendizaje, experimentación y construcción de soluciones funcionales. Las placas de desarrollo convencionales suelen requerir múltiples módulos adicionales para realizar proyectos completos, lo que incrementa la complejidad, los costos y el tiempo de implementación.
 
-Este proyecto propone el diseño y fabricación de una **placa entrenadora basada en el ESP32-WROOM-32**, orientada a estudiantes, makers y profesionales. Su objetivo es integrar en una sola plataforma los elementos esenciales para trabajar con entradas/salidas digitales y analógicas, comunicación serial, control de cargas de alto voltaje, y más.
+Este proyecto propone el diseño y fabricación de una **placa entrenadora basada en el [ESP32-WROOM-32](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf)**, orientada a estudiantes, makers y profesionales. Su objetivo es integrar en una sola plataforma los elementos esenciales para trabajar con entradas/salidas digitales y analógicas, comunicación serial, control de cargas de alto voltaje, y más.
 
 Entre sus características destacan:
 
@@ -43,13 +44,18 @@ Con esta solución, se busca facilitar el desarrollo de proyectos de electrónic
 
 
 ## 🔌 ESP32 Trainer
+
 ![ESP32 Trainer](img/Development_Board_ESP32-V1.0.png)
 
 [🔙 Volver al Temario](#-temario-del-proyecto)
 
-Descripción del ESP32 Trainer...
+## ESP32 Trainer Pinout
 
----
+![ESP32 Trainer Pinout](img/Pinout.png)
+
+[Ver en PDF](pinout_esp32.pdf)
+
+[🔙 Volver al Temario](#-temario-del-proyecto)
 
 ## 🧰 Materiales  
 
@@ -196,7 +202,7 @@ Esquemático diseñado en Kicad, se puede visualizar de forma completa en este e
 
 <details><summary><b>🔌 Diseño del PCB </b></summary>
 
-Diseño de la PCB en dos caras, se puede descargar los archivos para su modificación o su estudio en aca [Descargar archivos del  PCB](Development_Board_ESP32-V1.0/)
+Diseño de la PCB en dos caras, se puede descargar los archivos para su modificación o su estudio en aca [Descargar archivos del  PCB](https://github.com/EmersonEE/ESP32_Trainer/releases/tag/untagged-a26e2b24809520548798)
 
 <div align="center" >
   <p style="text-align:center;"><strong>Diseño 3D</strong></p>
@@ -206,14 +212,14 @@ Diseño de la PCB en dos caras, se puede descargar los archivos para su modifica
 </div>
 
 <div align="center" >
-  <p style="text-align:center;"><strong>Capa TOP</strong></p>
+  <p style="text-align:center;"><strong>Capa BUTTON</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-21-08_19663.png" alt="OLED I2C" width="300px">
   </p>
 </div>
 
 <div align="center" >
-  <p style="text-align:center;"><strong>Capa BUTTON</strong></p>
+  <p style="text-align:center;"><strong>Capa TOP</strong></p>
   <p style="text-align:center;">
     <img src="img/Screenshot_29-abr_11-20-52_12713.png" alt="OLED I2C" width="300px">
   </p>
@@ -266,7 +272,7 @@ Al ser de código abierto y multiplataforma (disponible en Windows, Linux y macO
 
 Con el objetivo de validar y demostrar la versatilidad de la placa entrenadora basada en el ESP32-WROOM-32, se desarrollaron cinco proyectos demostrativos que abarcan desde aplicaciones básicas hasta implementaciones más avanzadas. Estos proyectos fueron diseñados para cubrir distintos niveles de complejidad, permitiendo así ilustrar de manera progresiva el potencial de la placa tanto en el ámbito educativo como en entornos de prototipado profesional.
 
-Cada proyecto está enfocado en destacar una o varias funcionalidades integradas de la placa, como el uso de salidas digitales con visualización por LEDs, entradas analógicas controladas por potenciómetros, manejo de salidas de alto voltaje mediante relés, así como el uso de interfaces de comunicación como UART, I2C o SPI.
+Cada proyecto está enfocado en destacar una o varias funcionalidades integradas de la placa, como el uso de salidas digitales con visualización por LEDs, entradas analógicas controladas por potenciómetros, manejo de salidas de alto voltaje mediante relés, así como el uso de interfaces de comunicación como UART, I2C.
 
 
 <details><summary><b>🤖 💡 Proyecto 1 </b></summary>
@@ -339,9 +345,6 @@ Este proyecto es ideal para aplicaciones de automatización del hogar, demostran
 
 </details>
 
-
-
-
 <details><summary><b>🤖 💡 Proyecto 4 </b></summary>
 
 ## Proyecto: Controlador Web para LED RGB con ESP32
@@ -353,6 +356,8 @@ En lugar de eso, este proyecto propone una **interfaz web atractiva e interactiv
 La comunicación entre la interfaz web y el ESP32 se realiza mediante **WebSockets**, lo que permite actualizar el color en tiempo real sin necesidad de recargar la página. El **ESP32 actúa como servidor Web**, sirviendo la interfaz HTML y gestionando el servidor WebSocket para recibir los datos del color seleccionado.
 
 Este enfoque proporciona un sistema eficiente, moderno y fácil de usar para controlar luces RGB a través de cualquier dispositivo con acceso a un navegador web.
+
+[Manera de subir la carpeta Data al ESP32](https://randomnerdtutorials.com/esp32-vs-code-platformio-spiffs/)
 
 🔗 [Ver código del Proyecto 4](/Codigos%20Proyectos/Proyecto_4/)
 

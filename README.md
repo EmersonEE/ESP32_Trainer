@@ -15,7 +15,7 @@ Proyecto de Electrónica Aplicada 1 - **USAC**
 
 - 🔹 [Introducción](#-introducción)
 - 🔹 [ESP32 Trainer](#-esp32-trainer)
-- 🔹 [ESP32 Trainer Pinout](#-esp32-trainer-pinout)
+- 🔹 [ESP32 Trainer Pinout](#esp32-trainer-pinout)
 - 🔹 [Materiales](#-materiales)
 - 🔹 [Diseño PCB - KiCad](#-diseño-pcb---kicad)
 - 🔹 [Proyectos Demostrativos](#-proyectos-demostrativos)
@@ -254,15 +254,19 @@ Al ser de código abierto y multiplataforma (disponible en Windows, Linux y macO
 
 ## 📺 Tutoriales KiCad
 
+
 ### Guía para el uso de KiCad #1
 
-[![Guía para el uso de KiCad #1](https://img.youtube.com/vi/d3H3tfU4zBI/0.jpg)](https://youtu.be/d3H3tfU4zBI)
-
----
+[![Guía para el uso de KiCad #1](https://img.youtube.com/v3N2reU-T1R/0.jpg)](https://www.youtube.com/watch?v=3N2reU-T1Rk&list=PLkyFkq6L7y6vNRUAsLx8TKmJbIyapzemn)
 
 ### Guía para el uso de KiCad #2
 
-[![Guía para el uso de KiCad #2](https://img.youtube.com/vi/7YaQ3QVPdN0/0.jpg)](https://youtu.be/7YaQ3QVPdN0)
+[![Guía para el uso de KiCad #2](https://img.youtube.com/vi/d3H3tfU4zBI/0.jpg)](https://youtu.be/d3H3tfU4zBI)
+
+
+### Guía para el uso de KiCad #3
+
+[![Guía para el uso de KiCad #3](https://img.youtube.com/vi/7YaQ3QVPdN0/0.jpg)](https://youtu.be/7YaQ3QVPdN0)
 
 </details>
 
